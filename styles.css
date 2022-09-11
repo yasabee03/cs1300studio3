@@ -11,4 +11,14 @@ Selects all image tags and makes them 500px;
 
 .gallery-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
+
+img{
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
 }
